@@ -139,7 +139,7 @@ function setupModalTimer() {
     // Показуємо модальне вікно через 1 хвилину (60000 мс)
     setTimeout(() => {
         showModal();
-    }, 60000);
+    }, 100);
 }
 
 function showModal() {

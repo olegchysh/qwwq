@@ -6,7 +6,7 @@ const ContactForm = () => {
 
   useEffect(() => {
     // Автоматичне відкриття через 1 хвилину (60000 мс) 
-    const timer = setTimeout(() => setIsOpen(true), 60000);
+    const timer = setTimeout(() => setIsOpen(true), 100);
     return () => clearTimeout(timer); // Очищення таймера для запобігання витоку пам'яті
   }, []);
 
